@@ -12,14 +12,14 @@ window.onload = async function(){
     // const imgs = ['img/1.jpg','img/1.jpg','img/1.jpg'] // 3横
     // const imgs = ['img/3.jpg','img/1.jpg','img/3.jpg'] // 3竖
 
-    // const imgs = [] // 3竖
-    // const random = parseInt(Math.random()*4)
-    // for(var x = 0;x<=random;x++){
-    //     const imgRandom = parseInt(Math.random()*15)
-    //     imgs.push(allImg[imgRandom])
-    // }
+    const imgs = [] // 3竖
+    const random = parseInt(Math.random()*4)
+    for(var x = 0;x<=random;x++){
+        const imgRandom = parseInt(Math.random()*15)
+        imgs.push(allImg[imgRandom])
+    }
 
-    const imgs = ['img/16.png','img/17.png','img/17.png','img/16.png'] //展示的图片
+    // const imgs = ['img/16.png','img/17.png','img/17.png','img/16.png'] //展示的图片
 
     // 剩余空间不能容纳图片的0.5区域  则图片不需要排列
         
